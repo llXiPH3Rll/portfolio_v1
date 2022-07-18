@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Portfolio</title>
+
+</head>
+<body  class="font-SourceSansPro bg-slate-50 tracking-wide">
+
+<!--navbar-->
+    <nav class="p-8 xl:p-12">
+        <div class="pl-[80vw] cursor-pointer md:hidden">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" id="burger"></path></svg>
+        </div>
+        <ul class="hidden justify-end xl:ml-[700px] 2xl:ml-[1100px]" id="menu">
+            <li class="text-lg text-slate-700 sm:text-2xl mx-3 xl:mx-5 2xl:mx-8 cursor-pointer hover:text-violet-700">About</li>
+            <li class="text-lg text-slate-700 sm:text-2xl mx-3 xl:mx-5 2xl:mx-8 cursor-pointer hover:text-violet-700">Experience</li>
+            <li class="text-lg text-slate-700 sm:text-2xl mx-3 xl:mx-5 2xl:mx-8 cursor-pointer hover:text-violet-700">Contact</li>
+            <li class="text-lg text-slate-700 sm:text-2xl mx-3 xl:mx-5 2xl:mx-8 cursor-pointer hover:text-violet-700"><button class="bg-violet-600 hover:bg-violet-800 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+                Resume
+            </button></li>
+        </ul>
+        <ul class="invisible md:visible flex md:ml-[33vw] lg:ml-[50vw] 2xl:-[80vw]">
+            <li class="text-lg text-slate-700 sm:text-xl mx-3 py-3 xl:mx-5 2xl:mx-8 cursor-pointer hover:text-violet-700">ABOUT</li>
+            <li class="text-lg text-slate-700 sm:text-xl mx-3 py-3 xl:mx-5 2xl:mx-8 cursor-pointer hover:text-violet-700">EXPERIENCE</li>
+            <li class="text-lg text-slate-700 sm:text-xl mx-3 py-3 xl:mx-5 2xl:mx-8 cursor-pointer hover:text-violet-700">CONTACT</li>
+            <li class="text-lg text-slate-700 sm:text-xl mx-3 xl:mx-5 2xl:mx-8 cursor-pointer hover:text-violet-700"><button class="bg-slate-200 text-violet-800 hover:bg-violet-800 hover:text-white font-bold py-2 px-4 border-2 border-violet-800 rounded">
+                RESUME
+            </button></li>
+        </ul>
+    </nav>
+
+<!--intro-->
+    <div class="text-slate-700">
+        <p class="pt-[2vh] pr-12 pl-[12vw] lg:pl-[18vw] lg:pt-[4vh] lg:pr-[50vw] text-3xl lg:text-4xl xl:text-5xl font-light tracking-wide">
+            Hello! 👋
+        </p>
+        <p class="pt-[12vh] pr-12 pl-[12vw] lg:pl-[18vw] lg:pr-[50vw] text-3xl leading-relaxed lg:text-4xl xl:text-5xl font-light tracking-wide">
+            I'm <b class="font-semibold text-slate-700">Rishiraj Rajkhowa</b>, a 3rd year student at BITS Pilani. I am a software developer by heart.
+        </p>
+
+        <p class="pt-[13vh] lg:pl-[18vw] pr-12 pl-[12vw] text-xl font-light tracking-wide">
+            get in touch 👉 <a href = "mailto: abc@example.com" class="underline underline-offset-4 decoration-violet-600 decoration-[3px]">rishirajxrajkhowa@gmail.com</a>
+        </p>
+
+    </div>
+
+<!--About-->
+    <section class="flex pt-[22vh] pr-[11vw] pl-[12vw] lg:pl-[30vw] lg:pt-[45vh] lg:pr-[30vw]">
+        <div class="pr-5 text-md lg:text-xl tracking-wide text-violet-600">
+                <b class="font-semibold">ABOUT</b>
+        </div>
+        <div class="text-md lg:text-xl font-light tracking-wide">
+            <p>
+             I'm currently pursuing my undergraduate degree in Electronics at <b>BITS Pilani Goa Campus.</b> I have so far worked in the <b>Indian Army (MCEME)</b> as a <b>Software intern</b>, writing code for an AI drone simulator.
+            </p>
+            <br>
+            <p>
+                As a software developer, I approach every project with the intention of creating helpful software that solves problems and adds value to the users. Throughout my life I have been very passionate about computers and tech in general and am always looking forward to picking up new skills to advance my career in this field of Software development.
+            </p>
+            <br>
+            <p>
+                <b>When I am not in front of a computer</b> I probably be at the gym, playing the piano or crossing off another item from my bucket list
+            </p>
+        </div>
+    </section>
+
+<!--Skills-->
+    <section class="flex pt-[20vh] pr-[11vw] pl-[12vw] lg:pl-[30vw] lg:pt-[22vh] lg:pr-[20vw]">
+        <div class="pr-5 text-md lg:text-xl tracking-wide text-violet-600">
+            <b class="font-semibold">SKILLS</b>
+        </div>
+        <div class="text-sm sm:text-md lg:text-xl font-light tracking-wide">
+            <table class="min-w-full">
+                <tbody>
+                <tr>
+                    <th class="text-left font-semibold">LANGUAGES</th>
+                    <th class="text-left font-semibold">TOOLS</th>
+                    <th class="text-left font-semibold">FRAMEWORKS</th>
+                </tr>
+                <tr>
+                    <td class="sm:pr-36">C & C++</td>
+                    <td class="sm:pr-32">Git & Github</td>
+                    <td class="sm:pr-32">Tailwind</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Bash</td>
+                    <td>Bootstrap</td>
+                </tr>
+                <tr>
+                    <td>Javascript</td>
+                    <td>Chrome DevTools</td>
+                    <td>Node</td>
+                </tr>
+                <tr>
+                    <td>HTML & CSS</td>
+                    <td>Postman</td>
+                    <td>Flutter</td>
+                </tr>
+                <tr>
+                    <td>SQL</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+<!--Experience-->
+    <section class="flex pb-[50vh] pt-[22vh] pl-[8vw] lg:pl-[27vw] lg:pt-[22vh]">
+        <div class="pr-1 sm:pr-5 text-md lg:text-xl tracking-wide text-violet-600">
+            <b class="font-semibold">EXPERIENCE</b>
+        </div>
+        <div class="text-sm sm:text-md lg:text-xl font-light tracking-wide">
+            <table class="table-auto">
+                <tbody>
+                <tr>
+                    <td class="text-left font-semibold sm:pr-64">Indian Army (MCEME)</td>
+                    <td class="text-sm">May 2021 - July 2021</td>
+                </tr>
+                <tr>
+                    <td>Software Intern</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="text-left font-semibold pt-6">BITSKrieg</td>
+                    <td class="text-sm">Aug 2020 - April 2021</td>
+                </tr>
+                <tr>
+                    <td>Member</td>
+                    <td></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    
+
+<!--End-->
+    <nav class="flex text-sm sm:text-md justify-between">
+        <div>
+            <p>Work in progress</p>
+            <b class="font-semibold">Designed & Developed by Rishiraj Rajkhowa 2022</b>
+        </div>
+        <div>
+        <ul class="flex">
+            <li>EMAIL</li>
+            <li>LINKEDIN</li>
+            <li>INSTAGRAM</li>
+            <li>GITHUB</li>
+        </ul>
+        </div>
+    </nav>
+    <script src="./index.js"></script>
+
+</body>
+</html>
