@@ -1,19 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Portfolio</title>
 
 </head>
-<body  class="font-SourceSansPro bg-slate-50 tracking-wide">
+<body  class="font-SourceSansPro bg-slate-50">
 
 <!--navbar-->
-    <nav class="p-8 xl:p-12">
-        <div class="pl-[80vw] cursor-pointer md:hidden">
+    <nav class="py-8 xl:py-12 tracking-wide">
+        <!-- DARK MODE EXPERIMENTAL-->
+        <!--<div class="w-1/6 h-11 relative text-center">
+            <span id="moon_dark" class="fixed z-90 bottom-10 right-8 w-20 h-20 drop-shadow-lg flex justify-center items-center text-white text-4xl hover:drop-shadow-2xl hover:animate-pulse duration-300">
+                <img src="./icons/moon_dark.png" />
+            </span>
+            <span id="moon_light" class="invisible fixed z-90 bottom-10 right-8 w-20 h-20 drop-shadow-lg flex justify-center items-center text-white text-4xl hover:drop-shadow-2xl hover:animate-pulse duration-300">
+                <img class="" src="./icons/moon_light.png" />
+            </span>
+        </div>-->
+        <div class="pl-[88vw] cursor-pointer md:hidden">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" id="burger"></path></svg>
         </div>
         <ul class="hidden justify-end xl:ml-[700px] 2xl:ml-[1100px]" id="menu">
@@ -21,16 +30,16 @@
             <li class="text-lg text-slate-700 sm:text-2xl mx-3 xl:mx-5 2xl:mx-8 cursor-pointer hover:text-violet-700">Experience</li>
             <li class="text-lg text-slate-700 sm:text-2xl mx-3 xl:mx-5 2xl:mx-8 cursor-pointer hover:text-violet-700">Contact</li>
             <li class="text-lg text-slate-700 sm:text-2xl mx-3 xl:mx-5 2xl:mx-8 cursor-pointer hover:text-violet-700"><button class="bg-violet-600 hover:bg-violet-800 text-white font-bold py-2 px-4 border border-blue-700 rounded">
-                Resume
+                RÉSUMÉ
             </button></li>
         </ul>
         <ul class="invisible md:visible flex md:ml-[33vw] lg:ml-[50vw] 2xl:-[80vw]">
-            <li class="text-lg text-slate-700 sm:text-xl mx-3 py-3 xl:mx-5 2xl:mx-8 cursor-pointer hover:text-violet-700">ABOUT</li>
-            <li class="text-lg text-slate-700 sm:text-xl mx-3 py-3 xl:mx-5 2xl:mx-8 cursor-pointer hover:text-violet-700">EXPERIENCE</li>
-            <li class="text-lg text-slate-700 sm:text-xl mx-3 py-3 xl:mx-5 2xl:mx-8 cursor-pointer hover:text-violet-700">CONTACT</li>
-            <li class="text-lg text-slate-700 sm:text-xl mx-3 xl:mx-5 2xl:mx-8 cursor-pointer hover:text-violet-700"><button class="bg-slate-200 text-violet-800 hover:bg-violet-800 hover:text-white font-bold py-2 px-4 border-2 border-violet-800 rounded">
-                RESUME
-            </button></li>
+            <li class="text-lg text-slate-700 sm:text-lg mx-3 py-3 xl:mx-5 2xl:mx-8 cursor-pointer hover:text-violet-700">ABOUT</li>
+            <li class="text-lg text-slate-700 sm:text-lg mx-3 py-3 xl:mx-5 2xl:mx-8 cursor-pointer hover:text-violet-700">EXPERIENCE</li>
+            <li class="text-lg text-slate-700 sm:text-lg mx-3 py-3 xl:mx-5 2xl:mx-8 cursor-pointer hover:text-violet-700">CONTACT</li>
+            <li class="text-lg text-slate-700 sm:text-lg mx-3 xl:mx-5 2xl:mx-8 cursor-pointer hover:text-violet-700"><a href="./resume/Rishiraj_Rajkhowa_Resume.pdf" target="_blank"><button class="bg-slate-200 text-violet-800 hover:bg-violet-800 hover:text-white font-bold py-2 px-4 border-2 border-violet-800 rounded hover:animate-pulse">
+                RÉSUMÉ
+            </button></a></li>
         </ul>
     </nav>
 
@@ -39,19 +48,19 @@
         <p class="pt-[2vh] pr-12 pl-[12vw] lg:pl-[18vw] lg:pt-[4vh] lg:pr-[50vw] text-3xl lg:text-4xl xl:text-5xl font-light tracking-wide">
             Hello! 👋
         </p>
-        <p class="pt-[12vh] pr-12 pl-[12vw] lg:pl-[18vw] lg:pr-[50vw] text-3xl leading-relaxed lg:text-4xl xl:text-5xl font-light tracking-wide">
-            I'm <b class="font-semibold text-slate-700">Rishiraj Rajkhowa</b>, a 3rd year student at BITS Pilani. I am a software developer by heart. 👨‍💻
+        <p class="pt-[12vh] pr-12 pl-[12vw] lg:pl-[18vw] md:pr-[56vw] text-3xl leading-relaxed lg:text-4xl xl:text-5xl font-light tracking-wide">
+            I'm <b class="font-semibold text-slate-700">Rishiraj Rajkhowa</b>, <br> a 3<sup>rd</sup> year student at BITS Pilani. I love developing software <b class="text-2xl lg:text-3xl xl:text-4xl">👨‍💻</b>
         </p>
 
         <p class="pt-[13vh] lg:pl-[18vw] pr-12 pl-[12vw] text-xl font-light tracking-wide">
-            get in touch 👉 <a href = "mailto: abc@example.com" class="underline underline-offset-4 decoration-violet-600 decoration-[3px]">rishirajxrajkhowa@gmail.com</a>
+            get in touch 👉 <a href = "mailto: rishirajxrajkhowa@gmail.com" class="underline underline-offset-4 decoration-violet-600 decoration-[3px]">rishirajxrajkhowa@gmail.com</a>
         </p>
 
     </div>
 
 <!--About-->
-    <section class="flex pt-[22vh] pr-[11vw] pl-[12vw] lg:pl-[30vw] lg:pt-[45vh] lg:pr-[30vw]">
-        <div class="pr-5 text-md lg:text-xl tracking-wide text-violet-600">
+    <section class="flex pt-[28vh] pr-[11vw] pl-[12vw] lg:pl-[30vw] lg:pt-[45vh] lg:pr-[30vw]">
+        <div class="pr-5 text-md lg:text-xl text-violet-600">
                 <b class="font-semibold">ABOUT</b>
         </div>
         <div class="text-md lg:text-xl font-light tracking-wide">
@@ -64,17 +73,17 @@
             </p>
             <br>
             <p>
-                <b>When I am not in front of a computer</b> I probably be at the gym, playing the piano or crossing off another item from my bucket list
+                <b>When I am not in front of a computer</b> I probably be at the gym, learning a new recipe or crossing off another item from my bucket list
             </p>
         </div>
     </section>
 
 <!--Skills-->
     <section class="flex pt-[20vh] pr-[11vw] pl-[12vw] lg:pl-[30vw] lg:pt-[22vh] lg:pr-[20vw]">
-        <div class="pr-5 text-md lg:text-xl tracking-wide text-violet-600">
+        <div class="pr-5 text-md lg:text-xl  text-violet-600">
             <b class="font-semibold">SKILLS</b>
         </div>
-        <div class="text-sm sm:text-md lg:text-xl font-light tracking-wide">
+        <div class="text-sm sm:text-md lg:text-xl font-light">
             <table class="min-w-full">
                 <tbody>
                 <tr>
@@ -113,8 +122,8 @@
     </section>
 
 <!--Experience-->
-    <section class="flex pb-[50vh] pt-[22vh] pl-[8vw] lg:pl-[27vw] lg:pt-[22vh]">
-        <div class="pr-1 sm:pr-5 text-md lg:text-xl tracking-wide text-violet-600">
+    <section class="flex pt-[22vh] pl-[5vw] lg:pl-[27vw] lg:pt-[22vh]">
+        <div class="pr-2 sm:pr-5 text-md lg:text-xl tracking-wide text-violet-600">
             <b class="font-semibold">EXPERIENCE</b>
         </div>
         <div class="text-sm sm:text-md lg:text-xl font-light tracking-wide">
@@ -143,17 +152,13 @@
 
 
 <!--End-->
-    <nav class="flex text-sm sm:text-md justify-between">
-        <div>
-            <p>Work in progress</p>
-            <b class="font-semibold">Designed & Developed by Rishiraj Rajkhowa 2022</b>
-        </div>
+    <nav class="flex pt-[10vh] pb-[20vh] text-sm sm:text-md justify-center ">
         <div>
         <ul class="flex">
-            <li>EMAIL</li>
-            <li>LINKEDIN</li>
-            <li>INSTAGRAM</li>
-            <li>GITHUB</li>
+            <li><a href="https://www.instagram.com/rishirajrajkhowa_/" target="_blank"><img src="./icons/instagram.png" class="w-16 sm:w-24 contrast-150 grayscale hover:contrast-100 hover:grayscale-0 px-3 sm:px-6 cursor-pointer"></a></li>
+            <li><a href="mailto:rishirajxrajkhowa@gmail.com" target="_blank"><img src="./icons/email.png" class="w-16 sm:w-24 contrast-125 grayscale hover:contrast-100 hover:grayscale-0 px-3 sm:px-6 cursor-pointer"></a></li>
+            <li><a href="https://www.linkedin.com/in/rishirajrajkhowa/" target="_blank"><img src="./icons/linkedin.png" class="w-16 sm:w-24 contrast-200 grayscale hover:contrast-100 hover:grayscale-0 px-3 sm:px-6 cursor-pointer"></a></li>
+            <li><a href="https://github.com/llXiPH3Rll/" target="_blank"><img src="./icons/github.png" class="w-16 sm:w-24 contrast-200 grayscale hover:contrast-100 hover:grayscale-0 px-3 sm:px-6 cursor-pointer"></a></li>
         </ul>
         </div>
     </nav>
