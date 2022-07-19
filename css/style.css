@@ -821,6 +821,14 @@ video {
   padding-left: 40vw;
 }
 
+.pt-\[14vh\] {
+  padding-top: 14vh;
+}
+
+.pt-\[17vh\] {
+  padding-top: 17vh;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1148,6 +1156,26 @@ body {
     padding-left: 27vw;
   }
 
+  .lg\:pt-\[2vh\] {
+    padding-top: 2vh;
+  }
+
+  .lg\:pt-\[17vh\] {
+    padding-top: 17vh;
+  }
+
+  .lg\:pt-\[13vh\] {
+    padding-top: 13vh;
+  }
+
+  .lg\:pt-\[8vh\] {
+    padding-top: 8vh;
+  }
+
+  .lg\:pt-\[12vh\] {
+    padding-top: 12vh;
+  }
+
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -1187,6 +1215,11 @@ body {
   .xl\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .xl\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }
 
